@@ -8,7 +8,7 @@ Computer vision technology, however, can provide independence to those who are b
 This mobile app uses computer vision to classify objects shown through the phone's camera. An image classification model was written in TensorFlow and trained on 16 varieties of canned goods. Inference is performed using a TensorFlow Lite version of the model. I modified a TensorFlow Lite example Java app (https://github.com/tensorflow/examples/tree/master/lite/codelabs/flower_classification/android), by adding a main page, relegating the second and third predictions to the expanded section of the lower screen, and removing the TensorFlow Lite banner.
 
 ## App
-The main page enables the user to choose the category of items to recognize (at this time, both buttons initialize inference with the canned goods model - see "Future Work" below). 
+The main page enables the user to choose the category of items to recognize (at this time, however, both buttons initialize inference with the canned goods model - see "Future Work" below). 
 
 Once the user is on the inference screen, the app continuously makes inferences on what it "sees" through the phone's camera in near real-time. The lower screen containing the prediction can be expanded to show the top 3 predictions and confidence scores, as well as details about the image and inference time.
 
